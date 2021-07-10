@@ -71,7 +71,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid #ffffff;
+    border: 1px solid #03111e;
     background-color: #03111e;
 }
 
@@ -88,11 +88,10 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #000000;
+    background-color: #4e4e4e;
 }
 
 li a.active {
     color: white;
     background-color: #5CAFFF;
 }
-
