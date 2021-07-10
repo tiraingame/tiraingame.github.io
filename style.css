@@ -55,3 +55,19 @@ background-color: #ffffff;
 .btn-shine:hover::before {
   transform: translateX(100%);
 }
+
+.rcbox {
+    position: absolute;
+    right: 139px;
+    top: 50%;
+    margin-top: -340px;
+    width: 480px;
+    height: 680px;
+    *background: #fff;
+    background: #fff\9;
+    background: rgba(255,255,255,.9);
+    border-radius: 12px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
