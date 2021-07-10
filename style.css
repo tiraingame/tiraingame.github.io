@@ -57,6 +57,7 @@ background-color: #ffffff;
 }
 
 .rcbox {
+    position: absolute;
     right: 139px;
     top: 50%;
     width: 480px;
