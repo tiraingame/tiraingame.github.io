@@ -1,0 +1,99 @@
+::-webkit-scrollbar
+{
+width: 16px;
+height: 16px;
+
+}
+::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+background-color: #ffffff;
+}
+
+.btn {
+  --hue: 190;
+  position: relative;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: hsl(var(--hue), 100%, 41%);
+  border: 1px solid hsl(var(--hue), 100%, 41%);
+  outline: transparent;
+  overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  transition: 0.25s;
+  text-color: white;
+}
+.btn:hover {
+  background: hsl(var(--hue), 100%, 31%);
+}
+.btn-primary {
+  --hue: 187;
+
+.btn-ghost:hover {
+  color: white;
+}
+.btn-shine {
+  color: white;
+}
+}
+.btn-ghost {
+  color: hsl(var(--hue), 100%, 41%);
+  background-color: transparent;
+  border-color: hsl(var(--hue), 100%, 41%);
+}
+
+.btn-shine:hover {
+  background: transparent;
+  box-shadow: 0 0 20px 10px hsla(var(--hue), 100%, 41%, 0.5);
+}
+.btn-shine:hover::before {
+  transform: translateX(100%);
+}
+
+.rcbox {
+    position: absolute;
+    left: 39%;
+    top: 20%;
+    transition-duration: 3;
+    transition-delay: 0.1;
+    width: 540px;
+    background: rgba(255,255,255,.9999999999);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #03111e;
+    background-color: #03111e;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #4e4e4e;
+}
+
+li a.active {
+    color: white;
+    background-color: #5CAFFF;
+}
