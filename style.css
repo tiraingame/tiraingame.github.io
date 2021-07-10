@@ -59,12 +59,9 @@ background-color: #ffffff;
 .rcbox {
     position: absolute;
     right: 139px;
-    top: 50%;
+    top: 35%;
     width: 480px;
-    *background: #fff;
-    background: #fff\9;
     background: rgba(255,255,255,.9999999999);
-    border-radius: 20px;
     border-radius: 20px;
     overflow: hidden;
 }
