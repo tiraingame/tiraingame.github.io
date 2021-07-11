@@ -97,3 +97,13 @@ li a.active {
     background-color: #5CAFFF;
 }
 
+.bgimg {
+  background-image: url(bg.png);
+  height: 800px;
+  width: 1900px;
+}
+
+body {
+  overflow:scroll;
+  overflow-x:hidden;
+}
