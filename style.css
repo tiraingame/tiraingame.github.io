@@ -64,6 +64,7 @@ background-color: #ffffff;
     background: rgba(255,255,255,.9999999999);
     border-radius: 20px;
     overflow: hidden;
+    filter: drop-shadow(0 0 10px white);
 }
 
 ul {
