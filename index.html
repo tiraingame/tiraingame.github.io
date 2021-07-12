@@ -4,7 +4,19 @@
 <head>
     <meta name="viewport" content="width=1920">
 
-
+<script type="text/javascript">
+    
+    function sleep(n) {
+        var start = new Date().getTime();
+        //  console.log('休眠前：' + start);
+        while (true) {
+            if (new Date().getTime() - start > n) {
+                break;
+            }
+        }
+        // console.log('休眠后：' + new Date().getTime());
+    }
+</script>
 
  <script type="text/javascript">
   function jump(web){         
@@ -94,12 +106,15 @@ animation: goBottom infinite alternate-reverse 1s ease-in-out;
     
 <script type="text/javascript">
     function loaded() {
+        sleep(2000)
         var b = document.getElementById('BodyId');
         var l = document.getElementById('loader');
         var r = document.getElementById('RcboxId');
+        var li =document.getElementById('load-img');
         l.style.visibility = 'hidden';
         b.style.visibility = 'visible';
         r.style.visibility = 'visible';
+        li.style.visibility = 'hidden';
     }
 </script>
 
@@ -162,6 +177,12 @@ animation: goBottom infinite alternate-reverse 1s ease-in-out;
   <br><br><br>
   <a href="https://tirain.itch.io/"><button class="btn btn-primary btn-ghost btn-shine"><font size="96" color="white">itch.io</font><div class="air1"></div></button></a>
   
-  <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+  <img id="load-img" onload="setTimeout(loaded(),7000);" src="http://tiraingame.github.io/load.png">
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+      
+</center></body></html>
 
       
